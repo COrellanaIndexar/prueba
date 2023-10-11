@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="ETH, BTC, Token, Matic, Ventu">
   <title>Ventu Coin</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
@@ -30,12 +31,12 @@
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
         <div class="col-md-4 d-flex align-items-center">
-          <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+          <span class="mb-3 mb-md-0 text-muted">&copy;  2023 Ventu, Inc</span>
         </div>
         <p class="text-black">
-          Descargo de responsabilidad: Las criptomonedas son volátiles y su valor puede tanto bajar como subir.
-          Los beneficios pueden estar sujetos a plusvalías u otros impuestos aplicables en tu jurisdicción.
-          Investiga siempre por tu cuenta e invierte sólo lo que puedas permitirte perder.
+          Descargo de responsabilidad: Las criptomonedas son vol&aacute;tiles y su valor puede tanto bajar como subir.
+          Los beneficios pueden estar sujetos a plusval&iacute;as u otros impuestos aplicables en tu jurisdicci&oacute;n.
+          Investiga siempre por tu cuenta e invierte s&oacute;lo lo que puedas permitirte perder.
         </p>
       </footer>
     </div>

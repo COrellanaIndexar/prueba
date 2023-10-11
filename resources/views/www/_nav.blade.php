@@ -9,16 +9,16 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Inicio</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">¿QUÉ ES BITCOIN BSC?</a></li>
-            <li><a class="dropdown-item" href="#">Cómo Comprar</a></li>
+            <li><a class="dropdown-item" href="#">&iquest;QU&Egrave; ES BITCOIN?</a></li>
+            <li><a class="dropdown-item" href="#">C&oacute;mo Comprar</a></li>
             <li><a class="dropdown-item" href="#">Hoja de Ruta</a></li>
             <li><a class="dropdown-item" href="#">Comparaciones</a></li>
-            <li><a class="dropdown-item" href="#">Pregúntas Frecuentes</a></li>
+            <li><a class="dropdown-item" href="#">Preg&uacute;ntas Frecuentes</a></li>
           </ul>
         </li>
       </ul>
       <div class="text-end">
-        <button type="button" class="btn btn-warning mx-2"><strong>AUDITADO</strong></button>
+        {{-- <button type="button" class="btn btn-warning mx-2"><strong>AUDITADO</strong></button> --}}
         <a href="{{ asset('assets/files/whitepaper.pdf') }}" class="btn btn-warning mx-2" target="_blank"><strong>WHITEPAPER</strong></a>
         <button type="button" class="btn btn-warning mx-2"><strong>COMPRAR</strong></button>
       </div>

@@ -18,15 +18,15 @@
       <div class="col-10 col-sm-8 col-lg-6 justify-content-center">
         <div class="card text-start border border-warning border-4 rounded-2">
           <div class="card-body">
-            <h4 class="card-title">COMPRAR BTCBSC EN PREVENTA</h4>
+            <h4 class="card-title">COMPRA VentuCoin EN PREVENTA</h4>
             <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar bg-warning text-black" style="width: 70%"></div>
             </div>
             <div class="text-center">
                 <p>USDT recaudado: $4,745,381.85 / $6,063,750</p>
-                <p><strong>Tu BTCBSC comprado = 0</strong></p>
-                <p><strong>Tu BTCBSC apostable = 0</strong></p>
-                <p>1 BTCBSC = $0.99</p>
+                <p><strong>Tu VentuCoin comprado = 0</strong></p>
+                <p><strong>Tu VentuCoin apostable = 0</strong></p>
+                <p>1 VentuCoin = $0.99</p>
             </div>
             <div class="d-flex justify-content-center gap-2">
               <button class="btn btn-light text-dark border-dark text-uppercase d-flex align-items-center justify-content-center selected mx-auto w-50">
@@ -46,7 +46,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="btcbscAmount">Recibes BTCBSC</label>
+                  <label for="btcbscAmount">Recibes VentuCoin</label>
                   <input type="number" class="form-control" id="btcbscAmount" placeholder="0">
                 </div>
               </div>
@@ -70,15 +70,17 @@
   </div>
 </div>
 <div class="px-2 pt-5 pb-2 mt-2 text-center">
-  <h1 class="display-5 fw-bold text-body-emphasis">Â¿QUÃ‰ ES BITCOIN BSC?</h1>
+  <h1 class="display-5 fw-bold text-body-emphasis">&iquest;QU&Eacute; ES BITCOIN?</h1>
   <div class="col-lg-10 mx-auto">
     <p class="lead mb-4">
       <div class="card shadow">
         <div class="card-body">
-          <span class="text-color-1"> BITCOIN BSC </span> es una versi&oacute;n verde BEP-20 de Bitcoin construida sobre la cadena inteligente BNB,
-          simulada para comenzar en un punto temprano de la historia de Bitcoin en 2011. Al igual que Bitcoin
-          libera nuevos BTC cada 10 minutos, nuestro contrato inteligente de staking paga tokens BTCBSC de acuerdo con
-          este calendario de bloques. Haz staking en BTCBSC para ganar estas recompensas.
+          <span class="text-color-1">Ventucoin</span> ser&aacute; la primera criptomoneda de origen paraguayo con la cual
+          la comunidad cripto podr&aacute; construir una pr&oacute;spera econom&iacute;a digital de una manera totalmente segura y
+          abierta a todos, independiente del lugar donde se encuentren, pues lo &uacute;nico que se necesita es contar
+          con internet. Asimismo, m&aacute;s adelante ofrecer&aacute; la posibilidad real de pagar con criptomonedas en cualquier
+          comercio adherido a la red que tenga habilitado el servicio y transaccionar de una manera f&aacute;cil,
+          tanto como utilizar un pos para pagar las cuentas, comprar, etc.
         </div>
       </div>
     </p>
@@ -93,9 +95,9 @@
             <strong>UNA OPORTUNIDAD DE COMPRAR BITCOIN A 0,99$.</strong>
           </div>
           <p>
-            ¿Te perdiste la bomba de Bitcoin? No eres el único. La mayoría de nosotros desconocíamos la existencia temprana
-            de BTC y sólo oímos hablar de ella cuando los precios recientes aparecieron en los titulares de las noticias.
-            Estamos convirtiendo esa decepción en una oportunidad.
+            &iquest;Te perdiste la bomba de Bitcoin? No eres el &uacute;nico. La mayor&iacute;a de nosotros desconoc&iacute;amos la existencia temprana
+            de BTC y s&oacute;lo o&iacute;mos hablar de ella cuando los precios recientes aparecieron en los titulares de las noticias.
+            Estamos convirtiendo esa decepci&oacute;n en una oportunidad.
           </p>
         </div>
       </div>
@@ -110,8 +112,8 @@
             <strong>GANA RECOMPENSAS PASIVAS HACIENDO STAKING</strong>
           </div>
           <p>
-            Bitcoin BSC no es una bifurcación de Bitcoin, ni un esquema de pump-and-dump. El token BTCBSC está diseñado para
-            proporcionar recompensas diarias a los apostadores durante muchos años.
+            Bitcoin no es una bifurcaci&oacute;n de Bitcoin, ni un esquema de pump-and-dump. El token VentuCoin est&aacute; dise&ntilde;ado para
+            proporcionar recompensas diarias a los apostadores durante muchos a&ntilde;os.
         </div>
       </div>
     </div>
@@ -121,12 +123,13 @@
       <div class="card shadow h-100">
         <div class="card-body">
           <div class="mb-3">
-            <strong>BUY BTCBSC IN PREVENTA A PRECIOS DE 2011</strong>
+            <strong>Comprar VentuCoin en Preventa a precios de 2023</strong>
           </div>
           <ul>
-            <li>El precio de preventa de una?? <span class="text-color-1">BTCBSC</span> es sólo <span class="text-color-1">$0.99</span> por token, un precio al que sólo se podía comprar BTC en 2011</li>
-            <li><span class="text-color-1">29%</span> ?del suministro total de tokens se venderá en preventa o <span class="text-color-1">6,125,000</span> tokens, con lo que la capitalización de mercado inicial <span class="text-color-1">$6,063,750</span></li>
-            <li>Con un suministro máximo de <span class="text-color-1">21,000,000</span> tokens, los restantes <span class="text-color-1">14,455,000</span> BTCBSC está reservado para <span class="text-color-1">recompensas de staking</span></li>
+            <li>El precio de preventa de una?? <span class="text-color-1">VentuCoin</span> es s&oacute;lo <span class="text-color-1">$0.99</span> por token, un precio al que s&oacute;lo se pod&iacute;a comprar BTC en 2023
+            </li>
+            <li><span class="text-color-1">29%</span> ?del suministro total de tokens se vender&aacute; en preventa o <span class="text-color-1">6,125,000</span> tokens, con lo que la capitalizaci&oacute;n de mercado inicial <span class="text-color-1">$6,063,750</span></li>
+            <li>Con un suministro m&aacute;ximo de <span class="text-color-1">21,000,000</span> tokens, los restantes <span class="text-color-1">14,455,000</span> VentuCoin est&aacute; reservado para <span class="text-color-1">recompensas de staking</span></li>
           </ul>
           <div class="d-grid gap-3">
             <a href="" class="btn btn-lg btn-warning bg-color-1 g-col-3">
@@ -151,9 +154,9 @@
             <strong>VENTAJA DE LA CADENA BNB SMART</strong>
           </div>
           <ul>
-            <li>Bitcoin BSC proporcionará <span class="text-color-1">recompensas pasivas</span> para todos los titulares que hagan staking de sus tokens BTCBSC en nuestro <span class="text-color-1">contrato inteligente</span></li>
-            <li><span class="text-color-1">69%</span> del suministro de tokens o 14.455.000 tokens se pagarán a los participantes en el pool de apuestas como recompensa. <span class="text-color-1">cada 10 minutos</span></li>
-            <li>Compra y haz staking de tokens en cualquier momento con un <span class="text-color-1">Bloqueo de 7 días</span> en las retiradas: las recompensas se basan en tu porcentaje del <span class="text-color-1">fondo total de staking</span></li>
+            <li>Bitcoin proporcionar&aacute; <span class="text-color-1">recompensas pasivas</span> para todos los titulares que hagan staking de sus tokens VentuCoin en nuestro <span class="text-color-1">contrato inteligente</span></li>
+            <li><span class="text-color-1">69%</span> del suministro de tokens o 14.455.000 tokens se pagar&aacute;n a los participantes en el pool de apuestas como recompensa. <span class="text-color-1">cada 10 minutos</span></li>
+            <li>Compra y haz staking de tokens en cualquier momento con un <span class="text-color-1">Bloqueo de 7 d&iacute;as</span> en las retiradas: las recompensas se basan en tu porcentaje del <span class="text-color-1">fondo total de staking</span></li>
           </ul>
           <div class="d-grid gap-3">
             <a href="" class="btn btn-lg btn-warning bg-color-1 g-col-3">
@@ -172,9 +175,9 @@
             <strong>VENTAJA DE LA CADENA BNB SMART</strong>
           </div>
           <ul>
-            <li>La Cadena Inteligente BNB se basa en el código de <span class="text-color-1">Ethereum</span> proporcionando seguridad probada y <span class="text-color-1">contrato inteligente</span> capacidades</li>
-            <li>Ahorra dinero en <span class="text-color-1">tasas de gas</span> con las transacciones de la Cadena Inteligente de BNB <span class="text-color-1">más rápido</span> y <span class="text-color-1">más barato</span> que Ethereum</li>
-            <li>Accede fácilmente <span class="text-color-1">BTCBSC</span> a través de tu <span class="text-color-1">Trust Wallet</span> o <span class="text-color-1">Metamask</span> dapps, facilitando el almacenamiento y trading de BTCBSC</li>
+            <li>La Cadena Inteligente BNB se basa en el c&oacute;digo de <span class="text-color-1">Ethereum</span> proporcionando seguridad probada y <span class="text-color-1">contrato inteligente</span> capacidades</li>
+            <li>Ahorra dinero en <span class="text-color-1">tasas de gas</span> con las transacciones de la Cadena Inteligente de BNB <span class="text-color-1">m&aacute;s r&aacute;pido</span> y <span class="text-color-1">m&aacute;s barato</span> que Ethereum</li>
+            <li>Accede f&aacute;cilmente <span class="text-color-1">VentuCoin</span> a trav&eacute;s de tu <span class="text-color-1">Trust Wallet</span> o <span class="text-color-1">Metamask</span> dapps, facilitando el almacenamiento y trading de VentuCoin</li>
           </ul>
           <div class="d-grid gap-3">
             <a href="" class="btn btn-lg btn-warning bg-color-1 g-col-3">
@@ -191,17 +194,17 @@
 </div>
 <div class="bg-dark px-2 pt-5 pb-3 mt-2 text-center">
   <div class="container">
-    <h1 class="display-5 fw-bold text-white mb-5">CÓMO COMPRAR <span class="text-color-1">BTCBSC</span></h1>
+    <h1 class="display-5 fw-bold text-white mb-5">C&Oacute;MO COMPRAR <span class="text-color-1">VentuCoin</span></h1>
     <div class="row my-5">
       <div class="col-md-4 mb-4">
         <div class="card h-100">
           <div class="card-body">
             <img src="{{ asset('assets/img/ventucoin.png') }}" width="50" alt="">
-            <h4 class="card-title my-2">COMPRAR BTCBSC CON BNB</h4>
+            <h4 class="card-title my-2">COMPRAR VENTUCOIN CON BNB</h4>
             <ul>
-              <li>Pagar con <span class="text-color-1">BNB</span> es la forma más rápida de comprar tokens BTCBSC</li>
-              <li>Utilizar el BNB en tu <span class="text-color-1">Metamask</span> o <span class="text-color-1">Trust Wallet</span>, es un intercambio fácil de tokens</li>
-              <li>Guarda una pequeña cantidad de BNB en tu wallet para cubrir el <span class="text-color-1">tasa mínima de gas</span></li>
+              <li>Pagar con <span class="text-color-1">BNB</span> es la forma m&aacute;s r&aacute;pida de comprar tokens VENTUCOIN</li>
+              <li>Utilizar el BNB en tu <span class="text-color-1">Metamask</span> o <span class="text-color-1">Trust Wallet</span>, es un intercambio f&aacute;cil de tokens</li>
+              <li>Guarda una peque&ntilde;a cantidad de BNB en tu wallet para cubrir el <span class="text-color-1">tasa m&iacute;nima de gas</span></li>
             </ul>
           </div>
         </div>
@@ -210,9 +213,9 @@
         <div class="card h-100">
           <div class="card-body">
             <img src="{{ asset('assets/img/ventucoin.png') }}" width="50" alt="">
-            <h4 class="card-title my-2">COMPRAR BTCBSC CON ETH</h4>
+            <h4 class="card-title my-2">COMPRAR VENTUCOIN CON ETH</h4>
             <ul>
-              <li>También puedes comprar tokens BTCBSC utilizando <span class="text-color-1">USDT</span> en la cadena Ethereum</li>
+              <li>Tambi&eacute;n puedes comprar tokens VentuCoin utilizando <span class="text-color-1">USDT</span> en la cadena Ethereum</li>
               <li>Conecta tu wallet a la base de datos <span class="text-color-1">Ethereum</span> red para pagar con ETH</li>
               <li>Tener suficiente ETH sobrante para pagar el <span class="text-color-1">tasa de gas</span>. Reclamar es en BNB Smart Chain</li>
             </ul>
@@ -223,11 +226,11 @@
         <div class="card h-100">
           <div class="card-body">
             <img src="{{ asset('assets/img/ventucoin.png') }}" width="50" alt="">
-            <h4 class="card-title my-2">COMPRAR BTCBSC CON USDT</h4>
+            <h4 class="card-title my-2">COMPRAR VENTUCOIN CON USDT</h4>
             <ul>
-              <li>También puedes comprar tokens BTCBSC utilizando <span class="text-color-1">USDT</span> en las cadenas Ethereum o BSC</li>
-              <li>Conecta tu wallet a cualquiera de las cadenas y selecciona <span class="text-color-1">USDT</span> como opción de pago</li>
-              <li>Asegúrate de que tienes ETH o BNB para pagar la tasa de gas. Reclama en BNB Smart Chain.</li>
+              <li>Tambi&eacute;n puedes comprar tokens VentuCoin utilizando <span class="text-color-1">USDT</span> en las cadenas Ethereum</li>
+              <li>Conecta tu wallet a cualquiera de las cadenas y selecciona <span class="text-color-1">USDT</span> como opci&oacute;n de pago</li>
+              <li>Aseg&uacute;rate de que tienes ETH o BNB para pagar la tasa de gas. Reclama en BNB Smart Chain.</li>
             </ul>
           </div>
         </div>
@@ -244,7 +247,7 @@
   <div class="container">
     <h1 class="display-5 fw-bold mb-5">HOJA DE RUTA</h1>
     <p class="fs-5">
-      Bitcoin BSC... tiene una clara hoja de ruta por delante con el objetivo de crear nuevo valor en el ecosistema de
+      Bitcoin... tiene una clara hoja de ruta por delante con el objetivo de crear nuevo valor en el ecosistema de
       la Cadena Inteligente del BNB.
     </p>
     <div class="row my-5">
@@ -258,8 +261,8 @@
             <h4 class="card-title my-2"><span class="text-color-1">Q3</span> <span class="text-color-2">2023</span> </h4>
             <strong class="fs-6">Fase 1: Comienza la preventa</strong>
             <p class="card-text fs-7">
-              Para dar a todo el mundo la oportunidad de comprar BTCBSC al precio más bajo,
-              el 29% del suministro total de tokens se venderá en una preventa justa a 0,99 $. Los fondos recaudados se utilizarán para cubrir los costes de desarrollo y marketing.
+              Para dar a todo el mundo la oportunidad de comprar VentuCoin al precio m&aacute;s bajo,
+              el 29% del suministro total de tokens se vender&aacute; en una preventa justa a 0,99 $. Los fondos recaudados se utilizar&aacute;n para cubrir los costes de desarrollo y marketing.
             </p>
           </div>
         </div>
@@ -275,8 +278,8 @@
             <h4 class="card-title my-2"><span class="text-color-1">Q3</span> <span class="text-color-2">2023</span> </h4>
             <strong>Etapa 2: Apertura del Staking</strong>
             <p class="card-text">
-              El staking es la piedra angular del proyecto Bitcoin BSC. Se desplegará y activará un contrato
-              inteligente auditado y verificado durante la fase de preventa, para fomentar la participación
+              El staking es la piedra angular del proyecto Bitcoin. Se desplegar&aacute; y activar&aacute; un contrato
+              inteligente auditado y verificado durante la fase de preventa, para fomentar la participaci&oacute;n
               temprana en el staking.
             </p>
           </div>
@@ -292,8 +295,8 @@
             <h4 class="card-title my-2"><span class="text-color-1">Q3</span> <span class="text-color-2">2023</span> </h4>
             <strong>Fase 3: Lanzamiento de tokens</strong>
             <p class="card-text">
-              BTCBSC se lanzará en una DEX de cadena inteligente de BNB. Con el 2% de la oferta asignada a la liquidez DEX
-              bloqueada, también se requiere LP para garantizar un proyecto totalmente descentralizado y de propiedad comunitaria.
+              VentuCoin se lanzar&aacute; en una DEX de cadena inteligente de BNB. Con el 2% de la oferta asignada a la liquidez DEX
+              bloqueada, tambi&eacute;n se requiere LP para garantizar un proyecto totalmente descentralizado y de propiedad comunitaria.
             </p>
           </div>
         </div>
@@ -308,8 +311,8 @@
             <h4 class="card-title my-2"><span class="text-color-1">Q3</span> <span class="text-color-2">2023</span> </h4>
             <strong>Fase 4: Recompensas pasivas</strong>
             <p class="card-text">
-              Los titulares de BTCBSC pueden hacer staking con sus tokens y cobrar diariamente. Las recompensas se acumulan
-              cada 10 minutos, simulando el calendario de bloques de Bitcoin. La oferta máxima se alcanzará en unos 120 años.
+              Los titulares de VentuCoin pueden hacer staking con sus tokens y cobrar diariamente. Las recompensas se acumulan
+              cada 10 minutos, simulando el calendario de bloques de Bitcoin. La oferta m&aacute;xima se alcanzar&aacute; en unos 120 a&ntilde;os.
             </p>
           </div>
         </div>
@@ -329,16 +332,16 @@
     <div class="row align-items-center g-2 py-2">
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3 text-color-1">
-          BITCOIN BSC
+          BITCOIN
         </h1>
         <h2 class="fw-bold text-white">
           WHITEPAPER
         </h2>
         <p class="text-white">
-          La misión de Bitcoin BSC es dar a los entusiastas de las criptomonedas la oportunidad de comprar una nueva versión
-          de Bitcoin a un precio que sólo estaba disponible para los frikis de la tecnología y los iniciados.
-          Aprovechando la funcionalidad de contratos inteligentes de la Cadena Inteligente BNB, BTCBSC promete ofrecer velocidad,
-          seguridad y eficiencia. Lee nuestro libro blanco para obtener más información.
+          La misi&oacute;n de Bitcoin es dar a los entusiastas de las criptomonedas la oportunidad de comprar una nueva versi&oacute;n
+          de Bitcoin a un precio que s&oacute;lo estaba disponible para los frikis de la tecnolog&iacute;a y los iniciados.
+          Aprovechando la funcionalidad de contratos inteligentes de la Cadena Inteligente BNB, VentuCoin promete ofrecer velocidad,
+          seguridad y eficiencia. Lee nuestro libro blanco para obtener m&aacute;s informaci&oacute;n.
         </p>
         <div class="d-grid gap-3">
             <a href="" class="btn btn-lg btn-warning bg-color-1 g-col-3">
@@ -348,70 +351,6 @@
         </div>
         <div class="col-lg-6 text-center">
           <img src="{{ asset('assets/img/pexels-alesia-kozik-6771178.jpg') }}" class="img img-responsive" width="100%" alt="">
-        </div>
-      </div>
-  </div>
-</div>
-
-<div class="px-2 pt-5 pb-3 mt-2 text-center">
-  <div class="container">
-    <h1 class="display-5 fw-bold mb-5">COMPARACIONES DE CLONES DE BITCOIN</h1>
-    <p>
-      Tras el éxito y la adopción de Bitcoin (BTC), existen varias bifurcaciones y clones de la criptomoneda original,
-      por diversas razones. Algunos hacen las transacciones más rápidas y baratas, otros existen por razones filosóficas.
-      Bitcoin BSC simplemente pretende fusionar la velocidad, el bajo coste y la fiabilidad de la cadena inteligente BNB
-      con recompensas pasivas para los usuarios.
-    </p>
-    <div class="row my-5">
-      <div class="table-responsive">
-          <table class="table table-sm table-bordered">
-            <thead>
-              <tr class="table-warning">
-                <th scope="col"> </th>
-                <th scope="col">BITCOIN BSC</th>
-                <th scope="col">BITCOIN</th>
-                <th scope="col">BITCOIN CASH</th>
-                <th scope="col">BITCOIN SV</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="table-warning">TIPO DE PRUEBA</td>
-                <td>POS<br>POS</td>
-                <td>POW<br>POW</td>
-                <td>POW<br>POW</td>
-                <td>POW<br>POW</td>
-              </tr>
-              <tr>
-                <td class="table-warning">RECOMPENSAS PASIVAS</td>
-                <td>Sí<br>Staking</td>
-                <td>No<br>Depósito de valor</td>
-                <td>No<br>Depósito de valor</td>
-                <td>No<br>Depósito de valor</td>
-              </tr>
-              <tr>
-                <td class="table-warning">VELOCIDAD</td>
-                <td> < 5s<br>Cadena inteligente BNB </td>
-                <td>10m<br>BITCOIN</td>
-                <td>10m<br>BITCOIN CASH</td>
-                <td>10m<br>BITCOIN SV</td>
-              </tr>
-              <tr>
-                <td class="table-warning">ESCALABILIDAD</td>
-                <td>No<br>Depende de la red</td>
-                <td>No<br>1MB Bloques</td>
-                <td>No<br>4MB Bloques</td>
-                <td>No<br>8MB Bloques</td>
-              </tr>
-              <tr>
-                <td class="table-warning">GASTOS DE TRANSACCIÓN</td>
-                <td>< $0.10<br>BNB</td>
-                <td>$5-10<br>BTC</td>
-                <td><$0.10<br>BCH</td>
-                <td><$0.10<br>BSV</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </div>
   </div>
@@ -436,35 +375,35 @@
                   <div class="accordion-item">
                     <h4 class="accordion-header" id="headingOne">
                       <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        ¿Que es Bitcoin BSC?
+                        &iquest;Que es Bitcoin?
                       </button>
                     </h4>
                     <div id="collapseOne" class="accordion-collapse collapse bg-dark text-warning" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
                       <div class="accordion-body">
-                        Bitcoin BSC es un nuevo token BEP-20 construido sobre la cadena inteligente BNB que simula las recompensas
-                        en bloque de Bitcoin. Utilizando la tecnología de contratos inteligentes, Bitcoin BSC emite diariamente tokens
-                        de recompensa a los participantes de BTCBSC staking.
+                        Bitcoin es un nuevo token BEP-20 construido sobre la cadena inteligente BNB que simula las recompensas
+                        en bloque de Bitcoin. Utilizando la tecnolog&iacute;a de contratos inteligentes, Bitcoin emite diariamente tokens
+                        de recompensa a los participantes de VentuCoin staking.
                     </div>
                     </div>
                   </div>
                   <div class="accordion-item">
                     <h4 class="accordion-header" id="headingTwo">
                       <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        ¿Cúal es el objetivo de Bitcoin BSC?
+                        &iquest;C&uacute;al es el objetivo de Bitcoin?
                       </button>
                     </h4>
                     <div id="collapseTwo" class="accordion-collapse collapse bg-dark text-warning" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
                       <div class="accordion-body">
-                        Hay mucha gente en cripto que se perdió la oportunidad de comprar Bitcoin antes de tiempo o no tiene
-                        los recursos y los conocimientos para minarlo. Bitcoin BSC es un intento de igualar las condiciones y ofrecer
-                        tanto la posibilidad de comprar BTCBSC en preventa como una especie de minería en forma de staking.
+                        Hay mucha gente en cripto que se perdi&oacute; la oportunidad de comprar Bitcoin antes de tiempo o no tiene
+                        los recursos y los conocimientos para minarlo. Bitcoin es un intento de igualar las condiciones y ofrecer
+                        tanto la posibilidad de comprar VentuCoin en preventa como una especie de miner&iacute;a en forma de staking.
                     </div>
                     </div>
                   </div>
                   <div class="accordion-item">
                     <h4 class="accordion-header" id="headingThree">
                       <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        ¿Por qué lanzar en la Cadena Intelignete BNB?
+                        &iquest;Por qu&eacute; lanzar en la Cadena Intelignete BNB?
                       </button>
                     </h4>
                     <div id="collapseThree" class="accordion-collapse collapse bg-dark text-warning" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
@@ -477,12 +416,12 @@
                   <div class="accordion-item">
                     <h4 class="accordion-header" id="headingFour">
                       <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                        ¿Cúando se lanzará en la Cadena Inteligente BNB?
+                        &iquest;C&uacute;ando se lanzar&aacute; en la Cadena Inteligente BNB?
                       </button>
                     </h4>
                     <div id="collapseFour" class="accordion-collapse collapse bg-dark text-warning" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
                       <div class="accordion-body">
-                        Nuestro objetivo es lanzar Bitcoin BSC en un exchange descentralizado en BSC en el plazo de varias semanas desde el
+                        Nuestro objetivo es lanzar Bitcoin en un exchange descentralizado en el plazo de varias semanas desde el
                         inicio de la preventa, dependiendo de la rapidez con que pueda concluirse.
                     </div>
                     </div>
@@ -490,14 +429,14 @@
                   <div class="accordion-item">
                     <h4 class="accordion-header" id="headingFive">
                       <button class="accordion-button collapsed bg-dark text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                        ¿Donde puedo reclamar mis tokens de preventa?
+                        &iquest;Donde puedo reclamar mis tokens de preventa?
                       </button>
                     </h4>
                     <div id="collapseFive" class="accordion-collapse collapse bg-dark text-warning" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
                       <div class="accordion-body">
-                        Podrás reclamar tus tokens lo antes posible una vez finalizada la preventa, desde el sitio web de Bitcoin BSC.
-                        Es probable que la solicitud de tokens y la cotización tengan lugar el mismo día y a la misma hora.
-                        También podrás Hacer staking de tus tokens antes de la fecha de cotización, para asegurarte una posición de
+                        Podr&aacute;s reclamar tus tokens lo antes posible una vez finalizada la preventa, desde el sitio web de Bitcoin.
+                        Es probable que la solicitud de tokens y la cotizaci&oacute;n tengan lugar el mismo d&iacute;a y a la misma hora.
+                        Tambi&eacute;n podr&aacute;s Hacer staking de tus tokens antes de la fecha de cotizaci&oacute;n, para asegurarte una posici&oacute;n de
                         staking temprana.
                     </div>
                     </div>
@@ -514,22 +453,22 @@
   <div class="container col-xxl-10 px-4 py-5">
     <div class="row align-items-center g-2 py-2">
       <div class="col-lg-4">
-        <p>¿Que es BTCBSC?</p>
-        <p>¿Cómo Comprar?</p>
+        <p>&iquest;Que es VentuCoin?</p>
+        <p>&iquest;C&oacute;mo Comprar?</p>
         <p>Hoja de Ruta</p>
         <p>Comparaciones</p>
         <p>Preguntas Frecuentes</p>
       </div>
       <div class="col-lg-4">
         <p>Condiciones del Servicio</p>
-        <p>Política de Privacidad</p>
+        <p>Pol&iacute;tica de Privacidad</p>
         <p>Cookies</p>
       </div>
       <div class="col-lg-4">
-        <p>Negocios Internacionales</p>
+        <p>Ventu</p>
         <p>Centre, Rue du Gabian</p>
-        <p>98000 Monaco</p>
-        <p>contact@bitcoinbsc.io</p>
+        <p>Asunci&oacute;n, Paraguay </p>
+        <p>contacto@ventu.com.py </p>
       </div>
     </div>
   </div>

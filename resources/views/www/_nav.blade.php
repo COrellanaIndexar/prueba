@@ -21,6 +21,7 @@
         {{-- <button type="button" class="btn btn-warning mx-2"><strong>AUDITADO</strong></button> --}}
         <a href="{{ asset('assets/files/whitepaper.pdf') }}" class="btn btn-warning mx-2" target="_blank"><strong>WHITEPAPER</strong></a>
         <button type="button" class="btn btn-warning mx-2"><strong>COMPRAR</strong></button>
+        <a href="{{ route('login') }}" class="btn btn-warning mx-2" target="_blank"><strong>Login</strong></a> <!-- Nuevo botón para iniciar sesión -->
       </div>
     </div>
   </div>

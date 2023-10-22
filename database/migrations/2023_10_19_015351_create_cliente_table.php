@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('apellidos',100)->nullable(false);
             $table->string('email',100)->unique();
             $table->string('DNI',20)->nullable();
-            $table->foreignId('id_nacionalidad')->constrained('nacionalidad');
+            $table->foreign('id_nacionalidad')->references('id_nacionalidad')->on('nacionalidad');
             $table->string('direccion',200)->nullable();
             $table->string('password',255)->nullable(false);
             $table->timestamps();

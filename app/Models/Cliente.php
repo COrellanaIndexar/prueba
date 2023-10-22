@@ -16,3 +16,4 @@ class Cliente extends Model implements  Authenticatable
     protected $primaryKey = 'id_cliente';
     protected $fillable = ['nombres', 'apellidos', 'email', 'DNI', 'id_nacionalidad', 'direccion', 'password'];
 }
+//funcion belongsto para nacionalidad

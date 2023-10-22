@@ -17,3 +17,4 @@ class Cliente extends Model implements  Authenticatable
     protected $fillable = ['nombres', 'apellidos', 'email', 'DNI', 'id_nacionalidad', 'direccion', 'password'];
 }
 //funcion belongsto para nacionalidad
+//migraciones y relationships tablas

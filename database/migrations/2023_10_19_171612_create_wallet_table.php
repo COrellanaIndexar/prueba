@@ -17,10 +17,12 @@ return new class extends Migration
             $table->id('id_wallet');
             $table->dateTime('fecha_creacion')->default(now());
             $table->string('ip_creador', 255)->nullable(false);
-            $table->foreignId('id_cliente')->constrained('cliente');
+            // $table->foreignId('id_cliente')->constrained('cliente');
+            $table->unsignedBigInteger('id_cliente');
             $table->decimal('monto_guarani', 10, 2)->nullable();
             $table->char('num_wallet', 36)->unique();
             $table->timestamps();
+            $table->foreign('id_cliente')->references('id')->on('cliente');
         });
     }
 

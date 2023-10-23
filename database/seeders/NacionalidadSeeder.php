@@ -27,19 +27,19 @@ class NacionalidadSeeder extends Seeder
         'El Salvador',
         'Guatemala',
         'Honduras',
-        'México',
+        'Mexico',
         'Nicaragua',
-        'Panamá',
+        'Panama',
         'Paraguay',
-        'Perú',
+        'Peru',
         'Puerto Rico',
-        'República Dominicana',
+        'Republica Dominicana',
         'Uruguay',
         'Venezuela',
     ];
 
     foreach ($nacionalidades as $nacionalidad) {
-        DB::table('nacionalidad')->insert(['nombre_nacionalidad' => $nacionalidad]);
+        DB::table('nacionalidad')->insert(['nombre' => $nacionalidad]);
       }
     }
 }

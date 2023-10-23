@@ -22,7 +22,7 @@ class ClienteSeeder extends Seeder
         'DNI' => '18111222-3',
         'id_nacionalidad' => 4,
         'direccion' => 'calle falsa 123',
-        'password' => '$2a$12$3vCX513Ev4gmCOsk5nlIIeZPLXx5abAYXz2JnDmpD0tvJ9mjZdqdi',
+        'password' => '12345',
         'created_at' => now(),
         'updated_at' => now(),
     ]);

@@ -14,10 +14,10 @@ class ClienteController extends Controller
 {
   public function showRegistrationForm()
   {
-      return UserInfo::get_data();
+      // return UserInfo::get_data();
       // Obtener nacionalidades desde la base de datos
-      $nacionalidades = DB::table('nacionalidad')->pluck('nombre_nacionalidad','id_nacionalidad');
-      // $nacionalidades = DB::table('nacionalidad')->pluck('nombre','id'); //new
+      // $nacionalidades = DB::table('nacionalidad')->pluck('nombre_nacionalidad','id_nacionalidad');
+      $nacionalidades = DB::table('nacionalidad')->pluck('nombre','id'); //new
       return view('register', ['nacionalidades' => $nacionalidades]);
   }
 

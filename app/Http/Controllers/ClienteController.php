@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Cliente;
+use App\Services\UserInfo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
@@ -13,8 +14,10 @@ class ClienteController extends Controller
 {
   public function showRegistrationForm()
   {
+      return UserInfo::get_data();
       // Obtener nacionalidades desde la base de datos
       $nacionalidades = DB::table('nacionalidad')->pluck('nombre_nacionalidad','id_nacionalidad');
+      // $nacionalidades = DB::table('nacionalidad')->pluck('nombre','id'); //new
       return view('register', ['nacionalidades' => $nacionalidades]);
   }
 

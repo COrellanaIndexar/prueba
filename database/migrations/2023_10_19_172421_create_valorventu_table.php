@@ -15,12 +15,12 @@ return new class extends Migration
     {
         //
         Schema::create('valorventu', function (Blueprint $table) {
-          $table->id('id_valor');
-          $table->dateTime('fecha_inicio')->nullable(false);
-          $table->dateTime('fecha_fin')->nullable(false);
-          $table->decimal('ventu', 10, 2)->nullable(false);
-          $table->decimal('dolar', 10, 2)->nullable(false);
-          $table->decimal('guarani', 10, 2)->nullable(false);
+          $table->id();
+          $table->dateTime('fecha_inicio')->nullable();
+          $table->dateTime('fecha_fin')->nullable();
+          $table->decimal('ventu', 10, 2)->nullable();
+          $table->decimal('dolar', 10, 2)->nullable();
+          $table->decimal('guarani', 10, 2)->nullable();
           $table->timestamps();
       });
     }

@@ -14,15 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('cliente', function (Blueprint $table) {
-            $table->id('id_cliente');
-            $table->string('nombres',100)->nullable(false);
-            $table->string('apellidos',100)->nullable(false);
+            $table->id();
+            $table->string('nombres',100)->nullable();
+            $table->string('apellidos',100)->nullable();
             $table->string('email',100)->unique();
             $table->string('DNI',20)->nullable();
-            // $table->foreign('id_nacionalidad')->references('id_nacionalidad')->on('nacionalidad');
-            $table->unsignedInteger('id_nacionalidad');
+            $table->foreignId('id_nacionalidad')->references('id')->on('nacionalidad');
             $table->string('direccion',200)->nullable();
-            $table->string('password',255)->nullable(false);
+            $table->string('password',255)->nullable();
             $table->timestamps();
         });
     }

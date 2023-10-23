@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('validaventu', function (Blueprint $table) {
-            $table->id('id_valida');
-            $table->dateTime('fecha_creacion')->default(now());
+            $table->id();
+            // $table->dateTime('fecha_creacion')->default(now());
             $table->string('campo_validado', 255)->nullable(false);
             $table->dateTime('fecha_hora_validacion')->nullable();
             $table->text('comentario_rechazo')->nullable();

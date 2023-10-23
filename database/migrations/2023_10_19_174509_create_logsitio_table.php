@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->dateTime('fecha_hora')->default(now());
             $table->string('ip', 255)->nullable(false);
-            $table->foreignId('id_cliente')->constrained('cliente');
+            $table->foreignId('id_cliente')->references('id')->on('cliente');
             $table->timestamps();
         });
     }

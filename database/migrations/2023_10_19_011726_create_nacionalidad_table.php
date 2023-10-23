@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('nacionalidad', function (Blueprint $table) {
-          $table->id('id_nacionalidad');
-          $table->string('nombre_nacionalidad', 100)->nullable(false);
+          $table->id();
+          $table->string('nombre', 100)->nullable(false);
           $table->timestamps();
         });
     }

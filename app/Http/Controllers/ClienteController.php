@@ -35,6 +35,25 @@ class ClienteController extends Controller
     return redirect('/dashboard');
   }
 
+  public function edit($id)
+  {
+    $cliente = Cliente::find($id);
+    return view('edit', compact('cliente'));
+  }
+
+  public function update(Request $request, $id)
+  {
+    $cliente = Cliente::find($id);
+    $cliente->nombres = $request->get('nombres');
+    $cliente->direccion = $request->get('direccion');
+    $cliente->dni = $request->get('dni');
+    $cliente->direccion = $request->get('direccion');
+    $cliente->save();
+    return redirect('edit');
+  }
+
+
+
   public function logout(){
 
   }

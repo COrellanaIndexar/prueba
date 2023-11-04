@@ -1,29 +1,52 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Auth\GoogleUserController;
+
+// use App\Http\Controllers\AsignaturaController;
+// use App\Http\Controllers\ComparteController;
+// use App\Http\Controllers\DisponibilidadHorarioController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\ClienteController;
+// use App\Http\Controllers\PdfSolicitudController;
+// use App\Http\Controllers\PlanController;
+use App\Http\Controllers\UsuarioController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+//Portada/Intro
+Route::get('/', function () { return view('intro.index'); })->name('intro');
+// AuthController
+Route::get('/login', [AuthController::class, 'index'])->name('root');
+Route::post('login', [AuthController::class, 'login'])->name('login');
+Route::any('logout', [AuthController::class, 'logout'])->name('logout');
+// vista crear usuarios
+Route::get('/registro-usuario', [AuthController::class, 'vistaCrear'])->name('add');
+Route::post('/registro-usuario', [AuthController::class, 'registrar'])->name('add');
+//GoogleController
+Route::get('auth/google', [GoogleUserController::class, 'redirectToGoogle' ]);
+Route::get('auth/google/callback', [GoogleUserController::class, 'handleGoogleCallback' ]);
+// HomeController
+Route::middleware('auth.user')->group( function () {
+  Route::get('home', [HomeController::class, 'index'])->name('home.index');
+  Route::get('admin/perfil', [HomeController::class, 'perfil'])->name('admin.perfil');
+  Route::put('admin/perfil', [HomeController::class, 'perfilUpdate'])->name('admin.perfil');
+  // UsuarioController
+  Route::resource('usuarios', UsuarioController::class);
+  // Route::get('comparte_duoc', [ComparteController::class, 'index'])->name('comparte.index');
 
-Route::get('/', [HomeController::class,'index'])->name('root');
+  // Route::get('/dashboard', function () { return view('dashboard'); })->name('dashboard');
+  //OPCIONES
+  Route::get('/wallet', function () { return view('home.wallet'); })->name('wallet');
+  Route::get('/movimientos', function () { return view('home.movimientos'); })->name('movimientos');
+  Route::get('/entradas', function () { return view('home.entradas'); })->name('entradas');
+  Route::get('/configuraciones', function () { return view('home.configuraciones'); })->name('configuraciones');
+});
 
-Route::get('/login', function () {
-  return view('login');
-})->name('login');
 
-Route::post('/login', [AuthController::class,'login'])->name('login');
 
-//logout agregar
-Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+// Route::get('pdf', [PdfSolicitudController::class,'uno'])->name('pdf.uno');
 
-Route::get('/register', [ClienteController::class, 'showRegistrationForm'])->name('register');
+// use Maatwebsite\Excel\Facades\Excel;
 
-Route::post('/registrar', [ClienteController::class, 'addRegistrarForm'])->name('addRegistrarForm');
-
-Route::get('/dashboard', function () {
-  return view('dashboard');
-})->name('dashboard');
-
-Route::get('/edit', function () {
-  return view('edit');
-})->name('edit');
+// Route::get('/export-main', function () {
+//   return Excel::download(new MainExport, 'sales.xls');
+// });

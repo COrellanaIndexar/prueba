@@ -8,6 +8,8 @@ class ConvertDatetime
 
   const MONTHS = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 
+  const DAYS = array('Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sábado');
+
   public function __construct(string $date){
     $this->date = $date;
   }
@@ -23,6 +25,11 @@ class ConvertDatetime
   public function getDateV2() {
     return $this->format($this->date,'Y-m-d');
   }
+
+  public function getDateV3() {
+    return $this->format($this->date,'d/m/Y');
+  }
+
 
   public function getTime() {
     return $this->format($this->date,'H:i');
@@ -42,6 +49,14 @@ class ConvertDatetime
 
   public function getDay() {
     return $this->getDateTimeFormat("j");
+  }
+
+  public function getDayText() {
+    return $this->getDateTimeFormat("l");
+  }
+
+  public function getDayTextSP() {
+    return self::DAYS[$this->getDateTimeFormat("w")];
   }
 
   public function getTimeClock() {
@@ -66,6 +81,11 @@ class ConvertDatetime
     return $this->getDateEuropa() . " - " . $this->getTimeClock();
   }
 
+  // Viernes, 3 de febrero de 2023
+  public function getDateVersion() {
+    return "{$this->getDayTextSP()}, {$this->getDay()} de {$this->getMonth()}, {$this->getYear()}";
+  }
+
   public function isToday() {
     return date('d-m') == $this->getDateTimeFormat('d-m');
   }
@@ -75,7 +95,7 @@ class ConvertDatetime
   }
 
   public function getDatatimelocal() {
-    return $this->format($this->date,'Y-m-d\TH:i');
+    return $this->format($this->date,'Y-m-d\TH:i') ?? null;
   }
 
   public function getDateTimeFormat($format){

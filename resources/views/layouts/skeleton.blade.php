@@ -1,47 +1,58 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <base href="./">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="ETH, BTC, Token, Matic, Ventu">
-  <title>Ventu Coin</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-  <link rel="icon" href="{{ asset('assets/img/ventucoin.png') }}" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content="Bemtorres">
+  <title>VentuCoin</title>
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link rel="shortcut icon" href="{{ asset('app/img/ventucoin.png') }}" type="image/x-icon">
+  <link rel="stylesheet" href="{{ asset('vendors/simplebar/css/simplebar.css') }}">
+  <link rel="stylesheet" href="{{ asset('app/css/vendors/simplebar.css') }}">
+  <link href="{{ asset('app/css/style.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
-    body {
-      font-family: IBM Plex Sans Devanagari,sans-serif!important;
+    .sidebar {
+      background: #1a1a1a !important;
     }
-    .custom-card {
-      height: 300px; /* Define la altura deseada */
-      width: 100%;   /* Define el ancho deseado */
+
+    .sidebar-nav .nav-link {
+      color: #e5e5e5 !important;
+    }
+
+    .nav-icon {
+      color: rgba(255, 184, 0, 1) !important;
     }
   </style>
+  {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+  <link href="{{ asset('app/css/zeustech.css') }}" rel="stylesheet">
   @stack('css')
 </head>
 <body>
-  <div id="app">
-    @yield('app')
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  @stack('js')
-
-  {{-- footer --}}
-  <div class="bg-warning">
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <span class="mb-3 mb-md-0 text-muted">&copy;  2023 Ventu, Inc</span>
+  @include('layouts._menu')
+  <div class="wrapper d-flex flex-column min-vh-100 bg-light text-sm">
+    @include('layouts._nav')
+    <div class="body flex-grow-1 px-3">
+      <div class="container-lg text-sm">
+        <div id="app">
+          @yield('app')
         </div>
-        <p class="text-black">
-          Descargo de responsabilidad: Las criptomonedas son vol&aacute;tiles y su valor puede tanto bajar como subir.
-          Los beneficios pueden estar sujetos a plusval&iacute;as u otros impuestos aplicables en tu jurisdicci&oacute;n.
-          Investiga siempre por tu cuenta e invierte s&oacute;lo lo que puedas permitirte perder.
-        </p>
-      </footer>
+      </div>
     </div>
+    @include('layouts._footer')
   </div>
 
-  {{-- footer fin --}}
+  @vite(['resources/js/app.js'])
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ asset('vendors/@coreui/coreui/js/coreui.bundle.min.js') }}"></script>
+  <script src="{{ asset('vendors/simplebar/js/simplebar.min.js') }}"></script>
+  <script src="{{ asset('vendors/bemtorres/main.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  @include('components._toast')
+  @stack('js')
 </body>
 </html>

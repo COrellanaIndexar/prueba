@@ -57,19 +57,19 @@
                 <div class="card-header text-center bg-warning">Editar Perfil</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('addRegistrarForm') }}">
+                    <form  action="{{ route('cliente.update', $cliente->id) }}" method="POST">
                         @csrf
                         <div class="mb-3">
                             <label for="name" class="form-label">Nombre</label>
-                            <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required>
+                            <input id="nombres" type="text" class="form-control" name="nombres" value="{{ $cliente->nombres }}" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="last_name" class="form-label">Apellidos</label>
-                            <input id="last_name" type="text" class="form-control" name="last_name" value="{{ old('last_name') }}" required>
+                            <input id="apellidos" type="text" class="form-control" name="apellidos" value="{{ $cliente->apellidos }}" required>
                         </div>
 
-                        <div class="mb-3">
+                        {{-- <div class="mb-3">
                           <label for="password" class="form-label">Contrase&ntilde;a</label>
                           <input id="password" type="password" class="form-control" name="password" required>
                         </div>
@@ -77,11 +77,11 @@
                         <div class="mb-3">
                             <label for="password_confirmation" class="form-label">Confirmar Contrase&ntilde;a</label>
                             <input id="password_confirmation" type="password" class="form-control" name="password_confirmation" required>
-                        </div>
+                        </div> --}}
 
                         <div class="mb-3">
                             <label for="dni" class="form-label">DNI</label>
-                            <input id="dni" type="text" class="form-control" name="dni" value="{{ old('dni') }}" required>
+                            <input id="dni" type="text" class="form-control" name="dni" value="{{ $cliente->dni }}" required>
                         </div>
 
                         {{-- <div class="mb-3">
@@ -96,7 +96,7 @@
 
                         <div class="mb-3">
                             <label for="address" class="form-label">Direcci&oacute;n</label>
-                            <textarea id="address" class="form-control" name="address" required></textarea>
+                            <textarea id="direccion" class="form-control" name="direccion" required value="{{ $cliente->direccion}}"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-success">

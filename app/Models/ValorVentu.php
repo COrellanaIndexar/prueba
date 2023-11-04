@@ -7,8 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class ValorVentu extends Model
 {
-    // use HasFactory;
-    protected $table = 'valorventu';
-    protected $primaryKey = 'id_valor';
-    protected $fillable = ['fecha_inicio', 'fecha_fin', 'ventu', 'dolar', 'guarani'];
+    use HasFactory;
 }

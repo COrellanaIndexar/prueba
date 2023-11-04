@@ -36,7 +36,7 @@
               <li><a class="dropdown-item" href="#">Mi Wallet</a></li>
               <li><a class="dropdown-item" href="#">Mis Movimientos</a></li>
               <li><a class="dropdown-item" href="#">MIs Entradas</a></li>
-              <li><a class="dropdown-item" href="{{ route('edit')}}">Editar Mi Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Editar Mi Perfil</a></li>
               <li><a class="dropdown-item" href="#">Configuraciones</a></li>
               <li><hr class="dropdown-divider"></li>
               <li>

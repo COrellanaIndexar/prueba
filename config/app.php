@@ -185,8 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-        \Torann\GeoIP\GeoIPServiceProvider::class,
-
+        Laravel\Socialite\SocialiteServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -211,7 +210,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
-        'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ])->toArray(),
 
 ];

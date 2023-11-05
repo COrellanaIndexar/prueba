@@ -71,7 +71,7 @@ class Usuario extends Authenticatable
   }
 
   public function getImg() {
-    return $this->info_img() ?? asset('app/img/favicon.svg');
+    return $this->info_img() ?? asset('app/img/ventucoin.png');
   }
 
   // public function myQR() {

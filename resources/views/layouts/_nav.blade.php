@@ -12,8 +12,8 @@
         <a class="nav-link py-0" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
           <div class="d-flex align-items-center">
             <div class="avatar avatar-md">
-              <!-- <img class="avatar-img" src="{{ current_user()->getImg() }}" alt=""> -->
-              <img class="avatar-img" src="{{ asset('app/img/ventucoin.png') }}" alt="">
+               <img class="avatar-img" src="{{ current_user()->getImg() }}" alt="">
+              {{-- <img class="avatar-img" src="{{ asset('app/img/ventucoin.png') }}" alt=""> --}}
             </div>
             <div class="ms-2">
               <span class="h6 mt-2 mt-sm-0">{{ current_user()->nombre_completo() }}</span>

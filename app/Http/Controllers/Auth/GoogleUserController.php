@@ -51,7 +51,8 @@ class GoogleUserController extends Controller
 
 
       // // only allow people with @company.com to login
-      if($provider == 'duocuc.cl' || $provider == 'profesor.duoc.cl' ){
+      //solo sirve para GMAIL
+      if($provider == 'gmail.com' || $provider == 'hotmail.com' || $provider == 'outlook.com' ){
         // $u = Usuario::findByCorreo($email)->first();
         $u = Usuario::findByCorreo($email)->firstOrFail();
 
@@ -85,12 +86,12 @@ class GoogleUserController extends Controller
 
         return redirect()->route('home.index');
       }else {
-        return redirect()->route('root')->with('danger','No son cuentas de DuocUC.');
+        return redirect()->route('root')->with('danger','No son cuentas permitidas.');
       }
     } catch (\Throwable $e) {
 
       return $e;
-      return redirect()->route('root')->with('danger','No son cuentas de DuocUC.');
+      return redirect()->route('root')->with('danger','No son cuentas de permitidas.');
       // return redirect('/login')->with('danger','Gmail no responde, comuniquese que atención a clientes.');
     }
   }

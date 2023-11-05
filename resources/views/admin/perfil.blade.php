@@ -24,7 +24,7 @@
                     <img class="avatar-img" src="{{ asset('app/img/ventucoin.png') }}" alt="">
                   </div>
                   <div class="ms-2">
-                    <span class="h6 mt-2 mt-sm-0">{{ current_user()->nombres}} {{ current_user()->apellidos}}</span>                  
+                    <span class="h6 mt-2 mt-sm-0">{{ current_user()->nombres}} {{ current_user()->apellidos}}</span>
                     <p class="small m-0">{{ current_user()->email}}</p>
                   </div>
                 </div>
@@ -65,14 +65,18 @@
                 </div>
               </div>
 
-              {{-- <div class="col-mb-6 mb-3">
+              <div class="col-mb-6 mb-3">
                 <select class="form-select" aria-label="Default select example" name="id_nacionalidad">
                   <option selected>Seleccione su Nacionalidad</option>
                     @foreach($paises as $pais)
-                      <option value="{{ $pais->id }}">{{ $pais->nombre}}</option>
+                      @if ($pais->id == $u->id_nacionalidad)
+                        <option value="{{ $pais->id }}" selected>{{ $pais->nombre}}</option>
+                      @else
+                        <option value="{{ $pais->id }}">{{ $pais->nombre}}</option>
+                      @endif
                     @endforeach
-                </select> 
-              </div> --}}
+                </select>
+              </div>
 
               <div class="col-md-6 mb-3">
                 <div class="form-group row">
@@ -83,13 +87,6 @@
                 </div>
               </div>
 
-              {{-- <div class="col-md-4 mb-3">
-                <label for="admin">Administrador<small class="text-danger">*</small></label>
-                <select class="form-control" readonly>
-                  <option value="1" {{ $u->tipo_usuario == 1 ? 'selected' : '' }}>Si</option>
-                  <option value="2" {{ $u->tipo_usuario == 2 ? 'selected' : '' }}>No</option>
-                </select>
-              </div> --}}
             </div>
             <div class="form-group d-flex justify-content-end">
               <button type="submit" class="btn btn-success">Guardar</button>
@@ -101,7 +98,7 @@
     <div class="col-md-5">
       <div class="card shadow mb-3">
         <div class="card-body">
-          <form class="form-sample form-submit" action="{{ route('usuarios.update',$u->id) }}" method="POST">
+          <form class="form-sample form-submit" action="{{ route('admin.perfil') }}" method="POST">
             @csrf
             @method('PUT')
             <div class="row">

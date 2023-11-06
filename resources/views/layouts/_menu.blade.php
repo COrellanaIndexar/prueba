@@ -28,7 +28,7 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link {{ activeTab(['planes*']) }}" href="{{ route('configuraciones') }}">
+      <a class="nav-link {{ activeTab(['planes*']) }}" href="{{ route('admin.perfil') }}">
         <i class="nav-icon fa-solid fa-gears"></i>
         <small>Configuraciones</small>
       </a>

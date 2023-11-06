@@ -9,10 +9,10 @@
 <div class="row">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="card shadow mb-3"> 
+      <div class="card shadow mb-3">
         <h4 class="d-inline">Saldo Actual Disponible.</h4>
         <p class="d-inline ml-2 text-secondary">0x1A3f5B9c8D4e6A7Bd2F1C3e5D6F7a9b8C7d2E3F4a</p>
-        
+
         <div class="btn-group">
           <button type="button" class="btn btn-warning btn-md rounded m-1 p-2">Transferir <i class="fa-solid fa-money-bill-transfer"></i></button>
           <button type="button" class="btn btn-outline-warning btn-md rounded m-1 p-2">resibir transferencia <i class="fa-solid fa-piggy-bank"></i></button>
@@ -27,7 +27,7 @@
                   <p class="card-text"><strong>$354.32</strong>.</p>
                 </div>
               </div>
-          </div>
+            </div>
 
           <div class="col-md-3 mb-3">
             <div class="card">
@@ -58,7 +58,7 @@
         </div>
 
       </div>
-    </div>  
+    </div>
   </div>
 </div>
 @endsection

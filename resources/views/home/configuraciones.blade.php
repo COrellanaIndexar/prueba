@@ -9,10 +9,12 @@
 <div class="row">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="card shadow mb-3">  
-        HOLA
+      <div class="card shadow mb-3">
+        {{--  --}}
+        1
+        {{--  --}}
       </div>
-    </div>  
+    </div>
   </div>
 </div>
 @endsection

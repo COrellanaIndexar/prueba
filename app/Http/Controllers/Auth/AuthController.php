@@ -46,7 +46,7 @@ class AuthController extends Controller
 
   public function vistaCrear(){
     $paises = Nacionalidad::get();
-    return view('usuario.add',compact('paises'));    
+    return view('usuario.add',compact('paises'));
   }
 
   public function registrar(Request $request){
@@ -57,11 +57,13 @@ class AuthController extends Controller
     $u->dni = $request->input('dni');
     $u->id_nacionalidad = $request->input('id_nacionalidad');
     $u->direccion = $request->input('direccion');
-    $u->password = hash('sha256', $request->input('password'));       
+    $u->password = hash('sha256', $request->input('password'));
     $u->tipo_usuario = 2;
     $u->save();
     // return redirect()->route('nombre.ruta.create');
-    return redirect()->route('add');
+    return redirect()->route('add')->with('success','Se ha creado correctamente');
+    // return redirect()->route('usuarios.index')->with('success','Se ha creado correctamente');
+
   }
 
   public function logout(){

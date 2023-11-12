@@ -13,12 +13,26 @@
   <link href="{{ asset('app/css/style.css') }}" rel="stylesheet">
   <link href="{{ asset('app/css/zeustech.css') }}" rel="stylesheet">
 </head>
+<style>
+  .avatar-img {
+      max-width: 50px; /* Ajusta el tamaño máximo según tus necesidades */
+      max-height: 50px; /* Ajusta el tamaño máximo según tus necesidades */
+  }
+</style>
 <div class="bg-dark min-vh-100 d-flex flex-row align-items-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="card shadow mb-3">
-                    <div class="card-body">
+                    <div class="card-body position-relative">
+                        {{-- iconos esquinas de la cabecera --}}
+                        <div class="position-absolute top-0 start-0">
+                            <img class="avatar-img" src="{{ asset('app/img/ventucoin.png') }}" alt="">
+                        </div>
+                        <div class="position-absolute top-0 end-0">
+                            <img class="avatar-img" src="{{ asset('app/img/ventucoin.png') }}" alt="">
+                        </div>
+
                         <div class="row align-items-center text-center mb-3">
                             <h3 class="card-title">
                                 Registrate!
@@ -85,6 +99,7 @@
                             </div>
                             </div>
                         </div>
+                        {{-- REEDIRECCIONAR --}}
                         <div class="form-group d-flex">
                             <button type="submit" class="btn btn-warning">Guardar</button>
                         </div>
@@ -92,12 +107,12 @@
                             <!-- Agregar el hipervínculo para registrarse -->
                             <p class="mt-3">&iquest;ya estas registrado? <a href="{{ route('root') }}">entonces ingresa aqu&iacute;</a></p>
                         </div>
-                        </form>    
+                        </form>
                     </div>
                 </div>
-            </div>        
+            </div>
         </div>
-    </div>        
+    </div>
 </div>
   <script src="{{ asset('vendors/@coreui/coreui/js/coreui.bundle.min.js') }}"></script>
   <script src="{{ asset('vendors/simplebar/js/simplebar.min.js') }}"></script>

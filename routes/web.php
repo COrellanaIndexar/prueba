@@ -38,6 +38,15 @@ Route::middleware('auth.user')->group( function () {
   Route::get('/wallet', function () { return view('home.wallet'); })->name('wallet');
   Route::get('/movimientos', function () { return view('home.movimientos'); })->name('movimientos');
   Route::get('/entradas', function () { return view('home.entradas'); })->name('entradas');
+  // Comprar Ventu
+  Route::get('/comprar',function(){ return view('home.comprar'); })->name('comprar');
+  // Medio de Pagos (vista temporal)
+  Route::get('/pago',function(){ return view('home.pago'); })->name('pago');
+  // pdf de seguridad
+  Route::get('/comprobante',function(){ return view('home.comprobante'); })->name('comprobante');
+  //mensaje PostCompra
+  Route::get('/mensaje',function(){ return view('home.mensaje'); })->name('mensaje');
+
   Route::get('/configuraciones', function () { return view('home.configuraciones'); })->name('configuraciones');
 });
 

@@ -8,7 +8,8 @@
 <div class="container-fluid">
   <div class="row">
     @component('components.button._back')
-      @slot('body', 'Mi perfil')
+      {{-- @slot('body', 'Mi perfil') --}}
+      @slot('body','<div class="col-12 text-center"><strong>Mi Perfil</strong></div>')
     @endcomponent
     <div class="col-md-7">
       <div class="card shadow mb-3">

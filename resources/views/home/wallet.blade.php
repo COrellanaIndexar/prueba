@@ -4,20 +4,42 @@
 @endsection
 @section('content')
 @component('components.button._back')
-  @slot('body','<div class="col-12 text-center"><strong>Wallet</strong></div>')
+  {{-- @slot('body','<div class="col-12 text-center"><strong>Wallet</strong></div>') --}}
 @endcomponent
 <div class="row">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="card shadow mb-3">
-        <h4 class="d-inline">Saldo Actual Disponible.</h4>
+      <div class="card shadow mb-3  p-3 m-3">
+
+        <div class="col-12 text-center">
+          <strong class="h1">Wallet</strong>
+        </div>
+
+        {{-- <h4 class="d-inline">Saldo Actual Disponible.</h4>
         <p class="d-inline ml-2 text-secondary">0x1A3f5B9c8D4e6A7Bd2F1C3e5D6F7a9b8C7d2E3F4a</p>
 
         <div class="btn-group">
           <button type="button" class="btn btn-warning btn-md rounded m-1 p-2">Transferir <i class="fa-solid fa-money-bill-transfer"></i></button>
           <button type="button" class="btn btn-outline-warning btn-md rounded m-1 p-2">resibir transferencia <i class="fa-solid fa-piggy-bank"></i></button>
+        </div> --}}
+        {{--  --}}
+        <div class="col-md-12 mb-3">
+          <div class="card">
+              <div class="card-body text-center">
+                  <div class="card mb-3">
+                      <div class="card-body">
+                          <h4 class="card-title">Saldo Actual Disponible.</h4>
+                          <p class="card-text text-secondary">0x1A3f5B9c8D4e6A7Bd2F1C3e5D6F7a9b8C7d2E3F4a</p>
+                      </div>
+                  </div>
+                  <div class="btn-group mt-3">
+                      <button type="button" class="btn btn-warning btn-md rounded m-1 p-2">Transferir <i class="fa-solid fa-money-bill-transfer"></i></button>
+                      <button type="button" class="btn btn-outline-warning btn-md rounded m-1 p-2">Recibir transferencia <i class="fa-solid fa-piggy-bank"></i></button>
+                  </div>
+              </div>
+          </div>
         </div>
-
+        {{--  --}}
         <div class="container p-3 m-3">
           <div class="row">
             <div class="col-md-3 mb-3">

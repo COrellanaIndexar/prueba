@@ -4,12 +4,16 @@
 @endsection
 @section('content')
 @component('components.button._back')
-  @slot('body','<div class="col-12 text-center"><strong>Mis Entradas</strong></div>')
+  {{-- @slot('body','<div class="col-12 text-center"><strong>Mis Entradas</strong></div>') --}}
 @endcomponent
 <div class="row">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="card shadow mb-3">  
+      <div class="card shadow mb-3  p-3 m-3">
+
+        <div class="col-12 text-center">
+          <strong class="h1">Mis Entradas</strong>
+        </div>
         <!-- Dadvar  -->
         <nav class="navbar navbar-expand m- p-3">
           <!-- <a class="navbar-brand" href="#">Always expand</a> -->
@@ -20,7 +24,7 @@
           </div>
           <button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-file-pdf"></i> Descargar en PDF</button>
           <button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-file-excel"></i> Descargar en Excel</button>
-          
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -115,7 +119,7 @@
           </ul>
         </nav>
       </div>
-    </div>  
-  </div>   
+    </div>
+  </div>
 </div>
 @endsection

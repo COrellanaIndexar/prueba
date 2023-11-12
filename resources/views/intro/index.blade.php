@@ -41,9 +41,9 @@
             </li>
         </ul>
         <div class="text-end">
-            <a href="{{ asset('app/files/whitepaper.pdf') }}" class="btn btn-warning mx-2" target="_blank"><strong><i class="fa-solid fa-file-word"></i> WHITEPAPER</strong></a>
+            <a href="{{ asset('app/files/whitepaper.pdf') }}" class="btn btn-warning mx-2" target="_blank"><strong><i class="fa-solid fa-file-pdf"></i> WHITEPAPER</strong></a>
             <button type="button" class="btn btn-warning mx-2"><strong>COMPRAR</strong></button>
-            <a href="{{ route('root') }}" class="btn btn-warning mx-2" target="_blank"><strong>Login</strong></a> 
+            <a href="{{ route('root') }}" class="btn btn-warning mx-2" target="_blank"><strong>Login</strong></a>
         </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
                     VENTUCOIN
                     </h1>
                     <h2 class="fw-bold text-white">
-                    COMPRA 
+                    COMPRA
                     </h2>
                     <div class="d-grid mb-3 d-flex justify-content-center">
                     <img src="{{ asset('app/img/ventucoin.png') }}" class="img img-responsive text-center" width="400px" alt="">
@@ -72,8 +72,8 @@
                         </div>
                             <div class="text-center">
                                 <div class="d-flex justify-content-between">
-                                    <p class="text-start"><strong>PREVENTA</strong></p>
-                                    <p class="text-end"><strong>VENTA</strong></p>
+                                    <span class="text-start">Preventa</span>
+                                    <span class="text-end">Venta</span>
                                 </div>
                                 <p><strong>Tu VentuCoin comprado = 0</strong></p>
                                 <p>1 VentuCoin = $0.99</p>
@@ -148,9 +148,9 @@
                     <!-- &iquest;Te perdiste la bomba de Bitcoin? No eres el &uacute;nico. La mayor&iacute;a de nosotros desconoc&iacute;amos la existencia temprana
                     de BTC y s&oacute;lo o&iacute;mos hablar de ella cuando los precios recientes aparecieron en los titulares de las noticias.
                     Estamos convirtiendo esa decepci&oacute;n en una oportunidad. -->
-                    Uno de los principales objetivos de Ventucoin ser&aacute; brindar seguridad transaccional, 
-                    lo que ayudar&aacute; a que el mercado local se vaya expandiendo y la comunidad vaya creciendo, 
-                    dando tambi&eacute;n la oportunidad de administrar los wallets o billeteras digitales de manera segura y 
+                    Uno de los principales objetivos de Ventucoin ser&aacute; brindar seguridad transaccional,
+                    lo que ayudar&aacute; a que el mercado local se vaya expandiendo y la comunidad vaya creciendo,
+                    dando tambi&eacute;n la oportunidad de administrar los wallets o billeteras digitales de manera segura y
                     simple, pilares fundamentales del proyecto Ventucoin.
                 </p>
                 </div>
@@ -163,11 +163,11 @@
             <div class="card shadow">
                 <div class="card-body">
                 <div class="mb-3 text-center">
-                    <strong>Principales Objetivos.</strong>
+                    <strong>Instruir a usuarios</strong>
                 </div>
                 <p>
-                    Otro de sus objetivos ser&aacute; instruir a las personas en el contexto de las criptomonedas y 
-                    orientarlas en su uso, en vista del auspicioso escenario que se vislumbra para esta divisa 
+                    Otro de sus objetivos ser&aacute; instruir a las personas en el contexto de las criptomonedas y
+                    orientarlas en su uso, en vista del auspicioso escenario que se vislumbra para esta divisa
                     en este pa&iacute;s sudamericano
                 </div>
             </div>
@@ -182,14 +182,14 @@
                 </div>
                 <ul>
                     <li>
-                        El precio de preventa de un VentuCoin iniciara con un precio de preventa con 5.000 Gs por token, 
-                        e ira creciendo a trav&eacute;s del tiempor por intermedio de un modelo exponencial hasta llegar a los 10.000Gs 
-                        cuando inicie la venta.  
+                        El precio de preventa de un VentuCoin iniciara con un precio de preventa con 5.000 Gs por token,
+                        quee ira creciendo a trav&eacute;s del tiempo por intermedio de un modelo exponencial hasta llegar a los 10.000Gs
+                        cuando inicie la venta.
                     </li>
                     <li>
-                        29% del suministro total de tokens se vender&aacute; en preventa o 6,125,000 tokens 
+                        29% del suministro total de tokens se vender&aacute; en preventa o 6,125,000 tokens
                     </li>
-                    
+
                     <li>
                         Con un suministro m&aacute;ximo de <span class="text-color-1">21,000,000</span> tokens.
                     </li>

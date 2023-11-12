@@ -27,6 +27,14 @@
         <small>Entradas</small>
       </a>
     </li>
+    {{-- COMPRAR VENTU  --}}
+    <li class="nav-item">
+      <a class="nav-link {{ activeTab(['planes*']) }}" href="{{ route('comprar') }}">
+        <i class="nav-icon fa-solid fa-money-bill-1-wave"></i>
+        <small>Comprar Ventu</small>
+      </a>
+    </li>
+    {{--  --}}
     <li class="nav-item">
       <a class="nav-link {{ activeTab(['planes*']) }}" href="{{ route('admin.perfil') }}">
         <i class="nav-icon fa-solid fa-gears"></i>

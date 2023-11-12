@@ -61,7 +61,8 @@ class AuthController extends Controller
     $u->tipo_usuario = 2;
     $u->save();
     // return redirect()->route('nombre.ruta.create');
-    return redirect()->route('add')->with('success','Se ha creado correctamente');
+    Auth::guard('usuario')->loginUsingId($u->id);
+    return redirect()->route('home.index')->with('success','Se ha creado correctamente');
     // return redirect()->route('usuarios.index')->with('success','Se ha creado correctamente');
 
   }

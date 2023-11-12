@@ -21,6 +21,7 @@
               <div class="form-group">
                 <label for="exampleInputEmail1">Ventus a Comprar</label>
                 <input type="text" class="form-control" name="nombres" id="nombres" required/>
+                <small class="text-success"> 1 ventu = $ 1,0 UST aprox.</small>
               </div>
             </div>
 

@@ -28,6 +28,10 @@
             <input type="file" accept=".pdf" id="pdfUpload" name="pdfUpload" style="display: none;">
           </label>
         </div>
+          <!-- Botón Continuar -->
+        <div class="text-center mb-3">
+          <a href="{{ route('mensaje') }}" class="btn btn-success btn-sm ml-2">Continuar</a>
+        </div>
       </div>
     </div>
   </div>

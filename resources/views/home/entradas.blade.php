@@ -37,69 +37,69 @@
                     <th scope="col">#</th>
                     <th scope="col">Fecha</th>
                     <th scope="col">Hora</th>
-                    <th scope="col">Detalle</th>
+                    <th scope="col">Direcci&oacute;n de Coneci&oacute;n</th>
                 </tr>
             </thead>
-            <tbody class="text-center">
+              <tbody class="text-center">
                 <tr>
                     <th scope="row">1</th>
                     <td>30-10-2023</td>
                     <td>14:54</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>50.60.70.80</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
                     <td>14-10-2023</td>
                     <td>15:50</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>172.16.254.1</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>25-10-2023</td>
                     <td>12:30</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>100.200.300.400</td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
                     <td>07-11-2023</td>
                     <td>09:15</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>50.60.70.80</td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
                     <td>18-11-2023</td>
                     <td>19:22</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>172.16.254.1</td>
                 </tr>
                 <tr>
                     <th scope="row">6</th>
                     <td>02-12-2023</td>
                     <td>08:45</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>192.168.0.1</td>
                 </tr>
                 <tr>
                     <th scope="row">7</th>
                     <td>10-12-2023</td>
                     <td>17:37</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>100.200.300.400</td>
                 </tr>
                 <tr>
                     <th scope="row">8</th>
                     <td>05-12-2023</td>
                     <td>22:10</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>50.60.70.80</td>
                 </tr>
                 <tr>
                     <th scope="row">9</th>
                     <td>19-10-2023</td>
                     <td>11:20</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>172.16.254.1</td>
                 </tr>
                 <tr>
                     <th scope="row">10</th>
                     <td>22-11-2023</td>
                     <td>18:15</td>
-                    <td><button type="button" class="btn btn-warning m-2"><i class="fa-solid fa-calendar-day"></i> Ver Detalles</button></td>
+                    <td>192.168.0.1</td>
                 </tr>
               </tbody>
           </table>

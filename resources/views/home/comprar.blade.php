@@ -6,26 +6,6 @@
 @component('components.button._back')
   {{-- @slot('body','<div class="col-12 text-center"><strong>Comprar Ventus</strong></div>') --}}
 @endcomponent
-<style>
-  /* Estilos para la cartola bancaria */
-.cartola-bancaria {
-    background-color: #f8f9fa;
-    border: 1px solid #ced4da;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-}
-
-.cartola-item {
-    margin-bottom: 15px;
-}
-
-/* Estilos para los párrafos dentro de la cartola */
-.cartola-item p {
-    margin-bottom: 5px;
-}
-</style>
 <div class="row">
   <div class="container">
     <div class="row justify-content-center">
@@ -64,16 +44,44 @@
                   <input type="text" class="form-control" name="valor_moneda" id="valor_moneda" readonly/>
               </div>
             </div>
-
           </div>
+          {{-- nuevo --}}
+          <div class="container">
+            <div class="row justify-content-center mt-3" id="mensajeCompra" style="display: none;">
+                <div class="col-md-12">
+                    <div class="card text-right">
+                        <div class="card-header">
+                            <h4 class="mb-0">Detalles de la transacci&oacute;n</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                La cantidad de dinero a depositar es de $<span id="montoDeposito"></span>.
+                            </p>
+                            <p class="card-text">
+                                Los datos para realizar la transacci&oacute;n que le permitan cargar Ventus a su cuenta son:
+                            </p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Monto: $<span id="valorMoneda"></span>.</li>
+                                <li class="list-group-item">Banco: Banco Nacional.</li>
+                                <li class="list-group-item">N&uacute;mero de cuenta: 0x0067821.</li>
+                                <li class="list-group-item">Para: VentuCoin Bank Central.</li>
+                                <li class="list-group-item">Mensaje: Carga Ventu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          {{--  --}}
+
           <div class="row">
             <div class="col-md-12">
               <a href="{{ route('comprobante') }}" class="btn btn-warning mt-3">Realizar Compra</a>
             </div>
           </div>
         </form>
-        {{--  --}}
-        <div class="row text-center" id="mensajeCompra" style="display: none;">
+        {{-- ORIGINAL --}}
+        {{-- <div class="row text-center" id="mensajeCompra" style="display: none;">
           <div class="col-md-12">
               <div class="alert alert-info mt-3">
                   La cantidad de dinero a depositar es de $<span id="montoDeposito"></span>.<br>
@@ -85,7 +93,7 @@
                   Mensaje: Carga Ventu.
               </div>
           </div>
-        </div>
+        </div> --}}
 
       </div>
     </div>

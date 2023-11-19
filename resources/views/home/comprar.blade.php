@@ -1,4 +1,5 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app') --}} {{--Vue  --}}
+@extends('layouts.appp') {{--JS--}}
 @section('css')
 
 @endsection

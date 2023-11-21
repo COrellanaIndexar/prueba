@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="author" content="Bemtorres">
-  <title>zeustech</title>
+  <title>VentuCoin</title>
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <link rel="shortcut icon" href="{{ asset('app/img/favicon.svg') }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ asset('app/img/ventucoin.png') }}" type="image/x-icon">
   <link rel="stylesheet" href="{{ asset('vendors/simplebar/css/simplebar.css') }}">
   <link rel="stylesheet" href="{{ asset('app/css/vendors/simplebar.css') }}">
   <link href="{{ asset('app/css/style.css') }}" rel="stylesheet">

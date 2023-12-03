@@ -31,12 +31,12 @@ return new class extends Migration
 
         $u = new Usuario();
         $u->nombres = 'Carlos';
-        $u->apellidos = 'Orellana'; 
+        $u->apellidos = 'Orellana';
         $u->email = 'carlos@correo.cl';
         $u->dni = '18222333-4';
         $u->id_nacionalidad = 4;
         $u->direccion = 'Calle Falsa 123';
-        $u->password = hash('sha256', '12345');        
+        $u->password = hash('sha256', '12345');//12345
         $u->tipo_usuario = 1;
         $u->save();
     }

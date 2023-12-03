@@ -35,6 +35,7 @@
                       <option value="1">USD</option>
                       <option value="2">Guarani</option>
                       <option value="3">Real</option>
+                      <option value="4">Peso Chileno</option>
                   </select>
               </div>
             </div>
@@ -82,20 +83,6 @@
           </div>
         </form>
         {{-- ORIGINAL --}}
-        {{-- <div class="row text-center" id="mensajeCompra" style="display: none;">
-          <div class="col-md-12">
-              <div class="alert alert-info mt-3">
-                  La cantidad de dinero a depositar es de $<span id="montoDeposito"></span>.<br>
-                  los datos para poder realizar la transacccion que le permitan cargar ventus a su cuenta son:
-                  Monto: $<span id="valorMoneda"></span>.<br>
-                  Banco: Banco Nacional,<br>
-                  Numero de cuenta: 0x0067821.<br>
-                  Para: VentuCoin Bank Central.<br>
-                  Mensaje: Carga Ventu.
-              </div>
-          </div>
-        </div> --}}
-
       </div>
     </div>
   </div>
@@ -111,10 +98,13 @@
               valorEnMoneda = ventus * 1; // 1 ventu = 1 USD
               break;
           case '2': // Guarani
-              valorEnMoneda = ventus * 2; // 1 ventu = 2 Guarani
+              valorEnMoneda = ventus * 5000; // 1 ventu = 2 Guarani
               break;
           case '3': // Real
               valorEnMoneda = ventus * 1.5; // 1 ventu = 1.5 Real
+              break;
+          case '4': //Peso Chileno
+              valorEnMoneda = ventus * 836 // 1 ventu = 1500 CLP
               break;
           default:
               valorEnMoneda = 0;

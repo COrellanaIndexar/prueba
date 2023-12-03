@@ -206,7 +206,7 @@
             <img src="{{ asset('app/img/pexels-alesia-kozik-6771178.jpg') }}" class="img img-responsive" width="100%" alt="">
             </div>
         </div>
-        <div class="px-2 text-start row my-4 items-aling-center">
+        {{-- <div class="px-2 text-start row my-4 items-aling-center">
             <div class="col-lg-6 text-center">
             <img src="{{ asset('app/img/pexels-alesia-kozik-6771178.jpg') }}" class="img img-responsive" width="100%" alt="">
             </div>
@@ -229,8 +229,8 @@
                 </div>
             </div>
             </div>
-        </div>
-        <div class="px-2 text-start row my-4 items-aling-center">
+        </div> --}}
+        {{-- <div class="px-2 text-start row my-4 items-aling-center">
             <div class="col-lg-6 mb-3">
             <div class="card shadow h-100">
                 <div class="card-body">
@@ -253,7 +253,7 @@
             <div class="col-lg-6 text-center">
             <img src="{{ asset('app/img/pexels-alesia-kozik-6771178.jpg') }}" class="img img-responsive" width="100%" alt="">
             </div>
-        </div>
+        </div> --}}
         </div>
         <div class="bg-dark px-2 pt-5 pb-3 mt-2 text-center">
         <div class="container">

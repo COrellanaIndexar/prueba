@@ -45,7 +45,7 @@
             <div class="col-md-3 mb-3">
               <div class="card">
                 <div class="card-body text-center">
-                  <h5 class="card-title">Saldo Contable <i class="fa-solid fa-money-check-dollar"></i></h5>
+                  <h5 class="card-title">Saldo en VentuCoin <i class="fa-solid fa-wallet"></i></h5>
                   <p class="card-text"><strong>$354.32</strong>.</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@
           <div class="col-md-3 mb-3">
             <div class="card">
               <div class="card-body text-center">
-                <h5 class="card-title">Total Remuneraciones <i class="fa-solid fa-comments-dollar"></i></h5>
+                <h5 class="card-title">Saldo GS <i class="fa-solid fa-money-bills"></i></i></h5>
                 <p class="card-text"><strong>$4.32</strong>.</p>
               </div>
             </div>
@@ -63,7 +63,7 @@
           <div class="col-md-3 mb-3">
             <div class="card">
               <div class="card-body text-center">
-                <h5 class="card-title">Total Cargos <i class="fa-solid fa-file-invoice-dollar"></i></h5>
+                <h5 class="card-title">Saldo en USD <i class="fa-solid fa-money-check-dollar"></i></h5>
                 <p class="card-text"><strong>$10.15</strong>.</p>
               </div>
             </div>
@@ -72,7 +72,7 @@
           <div class="col-md-3 mb-3">
             <div class="card">
               <div class="card-body text-center">
-                <h5 class="card-title">Total Ahorrado <i class="fa-solid fa-money-bill-trend-up"></i></h5>
+                <h5 class="card-title">Ultimo Abono en VentuCoin <i class="fa-solid fa-piggy-bank"></i></h5>
                 <p class="card-text"><strong>$120.45</strong>.</p>
               </div>
             </div>

@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.appp')
 @push('css')
   <link rel="stylesheet" href="{{ asset('vendors/select2/select2.min.css') }}">
   <link rel="stylesheet" href="{{ asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css') }}">
@@ -96,6 +96,7 @@
         </div>
       </div>
     </div>
+    {{-- ORIGINAL --}}
     <div class="col-md-5">
       <div class="card shadow mb-3">
         <div class="card-body">
@@ -103,6 +104,7 @@
             @csrf
             @method('PUT')
             <div class="row">
+
               <div class="col-md-12 mb-3">
                 <div class="form-group row">
                   <label class="col-sm-12" for="pass">Cambiar contraseña <small class="text-danger">*</small></label>
@@ -111,14 +113,29 @@
                   </div>
                 </div>
               </div>
+
+              {{-- Inicio --}}
+              <div class="col-md-12 mb-3">
+                <label class="col-sm-12" for="pass2">Confirmar Contraseña <small class="text-danger">*</small></label>
+                <div class="col-sm-12">
+                    <input type="password" class="form-control" name="pass2" id="pass2" value="" required/>
+                </div>
+              </div>
+              {{-- Final --}}
+
             </div>
+            {{-- Original --}}
             <div class="form-group d-flex justify-content-end">
-              <button type="submit" class="btn btn-success">Guardar</button>
+              <button type="submit" class="btn btn-success" id="guardarContrasenas">Guardar</button>
+              <p id="mensajeError" class="text-danger ms-3" style="display: none;">Las contraseñas no son iguales</p>
             </div>
+            {{-- Final --}}
+
           </form>
         </div>
       </div>
     </div>
+    {{-- FIN ORIGINAL --}}
   </div>
 </div>
 
@@ -127,4 +144,28 @@
 <script src="{{ asset('vendors/select2/select2.min.js') }}"></script>
 <script src="{{ asset('vendors/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
 <script src="{{ asset('js/select2.js') }}"></script>
+{{-- JS Extra --}}
+{{-- NO FUNCIONA - COMPARAR CONTRASE�AS --}}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#pass, #pass2').on('input', function() {
+      var passValue = $('#pass').val();
+      var pass2Value = $('#pass2').val();
+      var guardarContrasenas = $('#guardarContrasenas');
+      var mensajeError = $('#mensajeError');
+
+      if (passValue !== pass2Value) {
+        guardarContrasenas.prop('disabled', true);
+        mensajeError.show();
+      } else {
+        guardarContrasenas.prop('disabled', false);
+        mensajeError.hide();
+      }
+    });
+  });
+</script>
+</script>
+{{-- Fin JS Extra --}}
+@push('js')
 @endpush
